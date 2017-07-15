@@ -1,4 +1,4 @@
-FROM opennms/openjdk:8u131-jdk
+ROM opennms/openjdk:8u131-jdk
 
 LABEL maintainer "Ronny Trommer <ronny@opennms.org>"
 
@@ -38,7 +38,7 @@ LABEL license="AGPLv3" \
 
 ENTRYPOINT [ "/docker-entrypoint.sh" ]
 
-CMD [ "-h" ]
+CMD [ "-s" ]
 
 ##------------------------------------------------------------------------------
 ## EXPOSED PORTS
